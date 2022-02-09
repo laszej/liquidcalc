@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Kalkulator mocy liquidu</title>
+</head>
+<body>
+<h1 style="color: blue;">Kalkulator mocy liquidu</h1>
+<div id="kalkulator">
+<input type="text" id = "baza1" placeholder="wpisz ilość pierwszej bazy" onkeyup="digits(this)">
+<input type="text" id = "moc1" placeholder="wpisz moc pierwszej bazy" onkeyup="digits(this)">
+<input type="text" id = "baza2" placeholder="wpisz ilość drugiej bazy" onkeyup="digits(this)">
+<input type="text" id = "moc2" placeholder="wpisz moc drugiej bazy" onkeyup="digits(this)"> 
+</div>  
+<div id ="buttons">
+    <button id="button">Oblicz!</button>
+    <button id="reset">Reset</button>
+</div>   
+
+<div id="result"></div>
+
+<script src="liquid.js"></script>
+</body>
+</html>
+

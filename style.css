@@ -1,0 +1,47 @@
+body{
+    background: grey;
+    text-align: center;
+    background-image: url("liquids.jpg");
+    background-size: cover;
+    background-attachment: fixed;    
+    background-position: center center; 
+}
+
+body, input, button{font-family: 'Ubuntu', sans-serif;}
+
+#kalkulator{
+display: flex;
+flex-wrap: wrap;  
+justify-content: center;  
+}
+
+input{
+    max-width: 300px;
+    padding: 10px;
+    font-size:16px;
+    border: none;
+    margin: 5px;
+}
+
+::placeholder{font-weight: bold;
+color: black;}
+
+button{
+min-width:100px; 
+min-height:50px;   
+max-width: 300px;
+font-size:16px;
+margin: 5px;
+background-color: blue;
+border-radius: 5%; 
+border: none;
+color: white;
+align-items: flex-end;   
+}
+
+#result{
+margin-top: 15px;
+font-size: 30px;
+font-weight: bold;
+color: blue;
+}
